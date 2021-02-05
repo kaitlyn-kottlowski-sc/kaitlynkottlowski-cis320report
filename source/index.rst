@@ -1,7 +1,7 @@
 Sample Sphinx Project
 =====================
 
-Fill in  this text with your own intro text
+Kaitlyn Kottlowski
 
 .. toctree::
    :maxdepth: 1
