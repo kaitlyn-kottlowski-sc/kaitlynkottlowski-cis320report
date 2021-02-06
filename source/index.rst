@@ -1,13 +1,17 @@
-Sample Sphinx Project
-=====================
+Kottlowski's Research Paper
+===========================
 
-Kaitlyn Kottlowski
+Angular
 
 .. toctree::
    :maxdepth: 1
    :caption: Contents:
 
-   chapter1/index
-   chapter2/index
+   bibliography/index
+   outline/index
+   text/index
+   first/index
+   draft/index
+   final/index
 
 
