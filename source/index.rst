@@ -1,7 +1,7 @@
-Kottlowski's Research Paper
-===========================
+Angular Research Paper
+======================
 
-Angular
+By: Kaitlyn Kottlowski
 
 .. toctree::
    :maxdepth: 1
