@@ -24,6 +24,12 @@ more easily. She walks through a few demos to show examples of what UI features 
 also explains some of the built-in functions on the API. I will be able to pull information about how to produce less
 complicated UI features using an Angular library.
 
+New source #1: https://saiconference.com/Downloads/FTC2017/Proceedings/128_Paper_264-Angular_and_the_Trending_Frameworks_of_Mobile.pdf
+New source #2: https://www.diva-portal.org/smash/get/diva2:1112464/FULLTEXT01.pdf
+New source #3: https://angular.io/guide/architecture
+New source #4: https://www.netguru.com/blog/what-apps-can-i-build-with-angular#:~:text=Angular%20is%20an%20excellent%20tool,allows%20building%20iOS%20and%20Android.
+New source #5: https://www.sirchend.com/web-development/mobile-app-development-why-choose-angular-development-for-mobile-apps/
+
 .. [#f1] Greif, S., Benitte, R., & Rambeau, M. (2020).
    "`The State of JavaScript 2020: Front-end frameworks <https://2020.stateofjs.com/en-US/technologies/front-end-frameworks/>`_". Retrieved 19:52, February 6, 2021.
 
