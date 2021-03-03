@@ -8,26 +8,39 @@ applications Angular can be used for.
 * Introduction [#f4]_
     * What is Angular?
     * Who created it?
-    * What is the use of Angular?
-* AngularJS versus Angular2+ [#f4]_
+    * What is the purpose of Angular?
+    * What languages can it be used with?
+* AngularJS versus Angular2+ [#f4]_ [#f11]_
     * History of the transition from AngularJS to Angular2+
-    * Differences
+    * Differences in architecture, language, syntax, etc.
     * Similarities
-* Angular versus other frameworks [#f2]_
+    * Advantages and Disadvantages
+* Angular versus other frameworks [#f2]_ [#f6]_ [#f7]_
     * What does Angular do better?
     * What does Angular lack that other frameworks don't?
     * What frameworks are comparable or better than Angular?
-    * People's opinion [#f1]_
+    * The People's opinion [#f1]_
 * The Architecture of an Angular application [#f8]_ [#f3]_
     * The use of Modules
+        * Show code examples here
     * Components and its properties
+        * Show code examples here
+    * Pipes
+        * Show code examples here
     * Services and dependency injections
+        * Show code examples here
 * Connecting Angular front-end framework to build a single-page Java application [#f3]_
     * Setup
-    * Rendering Data and adding an injectable service
+    * Rendering Data
+        * Show code here
+    * Adding an injectable service
+        * Show code here
     * Reactive forms and validation
-* What other applications is Angular widely used with? [#f9]_ [#f5]_
-    * SPA, Enterprise Web Apps, Mobile Apps
+        * Show code here
+* What other applications is Angular widely used with? [#f9]_ [#f5]_ [#f9]_
+    * SPA
+    * Enterprise Web Apps
+    * Mobile Apps
     * Which applications uses Angular the best?
 
 .. [#f1] Greif, S., Benitte, R., & Rambeau, M. (2020). "`The State of
@@ -76,4 +89,10 @@ applications Angular can be used for.
 .. [#f10] Sirchend Softwares. "`Mobile App Development: Why choose Angular
     Development for Mobile Apps? <https://www.sirchend
     .com/web-development/mobile-app-development-why-choose-angular-development
-    -for-mobile-apps/>`_". Sirchend Softwares Group. Retrieve February 21, 2021.
+    -for-mobile-apps/>`_". Sirchend Softwares Group. Retrieved February 21,
+    2021.
+
+.. [#f11] Kumar, Pankaj. (January 19, 2021). "`AngularJS Vs. Angular 2 Vs.
+    Angular 4: Understanding the Differences <https://www.simplilearn
+    .com/angularjs-vs-angular-2-vs-angular-4-differences-article>`_".
+    Simplilearn. Retrieved March 1, 2021.
