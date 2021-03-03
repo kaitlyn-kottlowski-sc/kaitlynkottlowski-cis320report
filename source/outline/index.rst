@@ -2,7 +2,7 @@ Outline
 =======
 
 **Thesis:** Comparing Angular to its history and other frameworks,
-how we can use it to build a single-page web application, and other
+how we can use it to build a single-page web application, and discovering other
 applications Angular can be used for.
 
 * Introduction [#f4]_
@@ -18,7 +18,7 @@ applications Angular can be used for.
     * What does Angular lack that other frameworks don't?
     * What frameworks are comparable or better than Angular?
     * People's opinion [#f1]_
-* The Architecture of an Angular application [#f8]_, [#f3]_
+* The Architecture of an Angular application [#f8]_ [#f3]_
     * The use of Modules
     * Components and its properties
     * Services and dependency injections
@@ -26,13 +26,13 @@ applications Angular can be used for.
     * Setup
     * Rendering Data and adding an injectable service
     * Reactive forms and validation
-* What other applications is Angular widely used with? [#f9]_
+* What other applications is Angular widely used with? [#f9]_ [#f5]_
     * SPA, Enterprise Web Apps, Mobile Apps
     * Which applications uses Angular the best?
 
-.. [#f1] Greif, S., Benitte, R., & Rambeau, M. (2020).
-   "`The State of JavaScript 2020: Front-end frameworks <https://2020.stateofjs.com/en-US/technologies/front-end-frameworks/>`_".
-    Retrieved 19:52, February 6, 2021.
+.. [#f1] Greif, S., Benitte, R., & Rambeau, M. (2020). "`The State of
+    JavaScript 2020: Front-end frameworks <https://2020.stateofjs.com/en-US/technologies/front-end-frameworks/>`_". Retrieved
+    19:52, February 6, 2021.
 
 .. [#f2] Holas, T. (2017, June 27).
     "`Angular vs. React: Which is better for web development? <https://www.toptal.com/front-end/angular-vs-react-for-web-development>`_".
