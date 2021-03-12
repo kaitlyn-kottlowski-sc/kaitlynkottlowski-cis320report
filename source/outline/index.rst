@@ -6,42 +6,66 @@ how we can use it to build a single-page web application, and discovering other
 applications Angular can be used for.
 
 * Introduction [#f4]_
+
     * What is Angular?
     * Who created it?
     * What is the purpose of Angular?
     * What languages can it be used with?
+
 * AngularJS versus Angular2+ [#f4]_ [#f11]_
+
     * History of the transition from AngularJS to Angular2+
     * Differences in architecture, language, syntax, etc.
     * Similarities
-    * Advantages and Disadvantages
-* Angular versus other frameworks [#f2]_ [#f6]_ [#f7]_
-    * What does Angular do better?
-    * What does Angular lack that other frameworks don't?
+    * Advantages of Angular2+
+
+* Angular adv and disadv [#f2]_ [#f6]_ [#f7]_
+
+    * What does Angular do well?
+    * What does Angular not do well?
     * What frameworks are comparable or better than Angular?
     * The People's opinion [#f1]_
+
 * The Architecture of an Angular application [#f8]_ [#f3]_
+
     * The use of Modules
+
         * Show code examples here
+
     * Components and its properties
+
         * Show code examples here
+
     * Pipes
+
         * Show code examples here
+
     * Services and dependency injections
+
         * Show code examples here
-* Connecting Angular front-end framework to build a single-page Java application [#f3]_
-    * Setup
-    * Rendering Data
-        * Show code here
-    * Adding an injectable service
-        * Show code here
-    * Reactive forms and validation
-        * Show code here
+
 * What other applications is Angular widely used with? [#f9]_ [#f5]_ [#f9]_
-    * SPA
+
+    *
     * Enterprise Web Apps
     * Mobile Apps
-    * Which applications uses Angular the best?
+    * SPA
+
+* Connecting Angular front-end framework to build a single-page Java application [#f3]_
+
+    * Setup
+    * Rendering Data
+
+        * Show code here
+
+    * Adding an injectable service
+
+        * Show code here
+
+    * Reactive forms and validation
+
+        * Show code here
+
 
 .. [#f1] Greif, S., Benitte, R., & Rambeau, M. (2020). "`The State of
     JavaScript 2020: Front-end frameworks <https://2020.stateofjs.com/en-US/technologies/front-end-frameworks/>`_". Retrieved
