@@ -46,7 +46,6 @@ applications Angular can be used for.
 
 * What other applications is Angular widely used with? [#f9]_ [#f5]_ [#f9]_
 
-    *
     * Enterprise Web Apps
     * Mobile Apps
     * SPA
