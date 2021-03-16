@@ -21,7 +21,7 @@ model-view-viewmodel (MVVM). [#f11]_ However, both designs can be implemented in
 AngularJS and Angular2+.
 
 Something that cannot be easily implemented in AngularJS is a search
-engine withing a Single Page Application (SPA). Although Angular2+ has
+engine within a Single Page Application (SPA), although Angular2+ has
 an easier time creating it. [#f12]_ Also, Angular2+ is considered to be more
 well-defined, some things can be done in multiple ways. Similarly, the syntax
 of Angular2+ is said to be simpler than AngularJS. [#f12]_ When it comes to the
