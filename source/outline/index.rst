@@ -12,20 +12,6 @@ applications Angular can be used for.
     * What is the purpose of Angular?
     * What languages can it be used with?
 
-* AngularJS versus Angular2+ [#f4]_ [#f11]_
-
-    * History of the transition from AngularJS to Angular2+
-    * Differences in architecture, language, syntax, etc.
-    * Similarities
-    * Advantages of Angular2+
-
-* Angular adv and disadv [#f2]_ [#f6]_ [#f7]_
-
-    * What does Angular do well?
-    * What does Angular not do well?
-    * What frameworks are comparable or better than Angular?
-    * The People's opinion [#f1]_
-
 * The Architecture of an Angular application [#f8]_ [#f3]_
 
     * The use of Modules
@@ -43,6 +29,20 @@ applications Angular can be used for.
     * Services and dependency injections
 
         * Show code examples here
+
+* AngularJS versus Angular2+ [#f4]_ [#f11]_
+
+    * History of the transition from AngularJS to Angular2+
+    * Differences in architecture, language, syntax, etc.
+    * Similarities
+    * Advantages of Angular2+
+
+* Angular adv and disadv [#f2]_ [#f6]_ [#f7]_
+
+    * What does Angular do well?
+    * What does Angular not do well?
+    * What frameworks are comparable or better than Angular?
+    * The People's opinion [#f1]_
 
 * What other applications is Angular widely used with? [#f9]_ [#f5]_ [#f9]_
 
@@ -96,8 +96,7 @@ applications Angular can be used for.
     Technologies Conference (FTC). Retrieved February 21, 2021.
 
 .. [#f7] Thorén, Emma, and Filip Brännlund Stål. March 17, 2017.
-    "`Usage of Angular from Developers Perspective <Usage of Angular from
-    Developers Perspective>`_". Blekinge Institute of Technology. Retrieved
+    "`Usage of Angular from Developers Perspective <http://www.diva-portal.org/smash/get/diva2:1112464/FULLTEXT01.pdf>`_". Blekinge Institute of Technology. Retrieved
     February 21, 2021.
 
 .. [#f8] Google. "`Introduction to Angular Concepts <https://angular
