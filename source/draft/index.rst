@@ -13,30 +13,30 @@ JavaScript supports classes and module loaders. Classes are blueprints that
 are using for creating objects that are assigned functions and properties
 . [#f15]_ An example of a simple Person class in TypeScript would look like::
 
-class Person { (1)
-    firstName = ""; (2)
-    lastName = "";
-    constructor(firstName, lastName) {  (3)
-        this.firstName = firstName;
-        this.lastName = lastName;
-    }
+    class Person { (1)
+        firstName = ""; (2)
+        lastName = "";
+        constructor(firstName, lastName) {  (3)
+            this.firstName = firstName;
+            this.lastName = lastName;
+        }
 
-    name() { (4)
-        return `${this.firstName} ${this.lastName}`;
-    }
+        name() { (4)
+            return `${this.firstName} ${this.lastName}`;
+        }
 
-    whoAreYou() {
-        return `Hi i'm ${this.name()}`; (5)
+        whoAreYou() {
+            return `Hi i'm ${this.name()}`; (5)
+        }
     }
-}
 
 A module is another name for a reusable file, thus module loaders simply
 interprets the module code and loads the module depending on the module
 format. [#f14]_ For example, in HTML UI you may want to load in a javascript
 file or a .css file like ::
 
-<script src="Example/example.js"></script>
-<link rel="stylesheet" href="example.css">
+    <script src="Example/example.js"></script>
+    <link rel="stylesheet" href="example.css">
 
 Angular also has advanced form validation that include the form being a
 container that can be validated itself when submitted. Controllers can have
