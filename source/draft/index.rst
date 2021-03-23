@@ -1,6 +1,72 @@
 Draft Paper
 ===========
 
+* The Architecture of an Angular application [#f8]_ [#f3]_
+
+    * The use of Modules
+
+        * Show code examples here
+
+    * Components and its properties
+
+        * Show code examples here
+
+    * Pipes
+
+        * Show code examples here
+
+    * Services and dependency injections
+
+        * Show code examples here
+
+The basic building blocks of the Angular framework architecture include
+Angular components. These components are organized into NgModules that
+collect related code into functional sets. To start the Angular app, or to
+enable bootstrapping, there must be a root module usually named AppModule.
+NgModules can import other NgModule functionality, as well as allowing their
+own functionality to be imported in other NgModules. It is beneficial to use
+functional modules to organize code for easier reusability. A NgModule is
+defined by @NgModule() and the properties describe it. The following NgModule
+is an example or a root NgModule: ::
+
+    import { NgModule } from '@angular/core';
+    import { BrowserModule } from '@angular/platform-browser';
+    @NgModule({
+      imports:      [ BrowserModule ],
+      providers:    [ Logger ],
+      declarations: [ AppComponent ],
+      exports:      [ AppComponent ],
+      bootstrap:    [ AppComponent ]
+    })
+    export class AppModule { }
+
+Only the bootstrap property is set in the root NgModule. However, any other
+NgModule can include many components. ``All components connects a component hierarchy with the page
+document object model (DOM). Each component defines a class that contains
+application data and login, and is associated with the HTML template that
+defines a view to be displayed in a target environment.`` An example of a
+Component is: ::
+
+    import { Component } from '@angular/core';
+    @Component({
+      selector: 'example-selector',
+      templateUrl: './example-html-templete.html',
+      styleUrls: ['./example-separate-css-file.css']
+    })
+
+A template combines HTML with Angular markup, such as the component above. A
+template's directives provide the program logic, while the binding markup
+connects the app data and the DOM. The binding markup could be event binding,
+where the app responds to user input, or property binding, which allows
+developers to inserts the app data into the HTML file.
+
+
+
+In addition, Angular
+components define views and use services that provide specific functionality.
+These services can be injected dependencies allowing code to be modular,
+reusable, and efficient. [#f8]_
+
 * Angular adv and disadv [#f2]_ [#f6]_ [#f7]_
 
     * What does Angular do well?
@@ -13,10 +79,10 @@ JavaScript supports classes and module loaders. Classes are blueprints that
 are using for creating objects that are assigned functions and properties
 . [#f15]_ An example of a simple Person class in TypeScript would look like::
 
-    class Person { (1)
-        firstName = ""; (2)
+    class Person {
+        firstName = "";
         lastName = "";
-        constructor(firstName, lastName) {  (3)
+        constructor(firstName, lastName) {
             this.firstName = firstName;
             this.lastName = lastName;
         }
@@ -26,7 +92,7 @@ are using for creating objects that are assigned functions and properties
         }
 
         whoAreYou() {
-            return `Hi i'm ${this.name()}`; (5)
+            return `Hi i'm ${this.name()}`;
         }
     }
 
