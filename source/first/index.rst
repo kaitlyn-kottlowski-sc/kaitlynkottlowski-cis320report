@@ -38,28 +38,21 @@ that initializes the app data. AngularJS uses ``{{ }}`` to bind the data to
 the view, while Angular2+ uses ``( )`` and ``[ ]`` for event and property
 binds. [#f11]_ For example: [#f13]_
 
-Angular JS Example
-------------------
+Angular JS Two-Binding Example
 
-``app.component.ts`` ::
+``angular-js-example.html`` [#f17]_ ::
 
-    import { Component } from '@angular/core';
-    @Component({
-        selector: 'test-app',
-        templateUrl: './app/databinding.html'
-    })
-
-    export class AppCopoment {
-        name = 'Kaitlyn Kottlowski';
-    }
-
-``databinding.html`` ::
-
-    <h4> Data binding in AngularJS Application</h4>
-    <div>
-        <h5>Binding example</h5>
-        Hello {{name}} !
+    <div ng-app="myApp" ng-controller="myCtrl">
+      Name: <input ng-model="name">
+      <h1>{{name}}</h1>
     </div>
+
+    <script>
+    var app = angular.module('myApp', []);
+    app.controller('myCtrl', function($scope) {
+      $scope.name = "Kaitlyn Kottlowski";
+    });
+    </script>
 
 Angular2+ Example
 -----------------
@@ -107,3 +100,6 @@ released in November 2020.
 .. [#f13] Trivedi, Jignesh. (September 16, 2016). "`Data Binding in Angular 2
     <https://www.c-sharpcorner.com/article/data-binding-in-angular-2/>`_".
     C# Corner.  Retrieved March 8, 2021.
+
+.. [#f17] "`Angularjs Data Binding <https://www.w3schools
+    .com/angular/angular_databinding.asp>`_". (n.d.). Retrieved March 25, 2021.

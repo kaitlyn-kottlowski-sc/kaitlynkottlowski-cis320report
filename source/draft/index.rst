@@ -200,3 +200,6 @@ heavily since 2016 (Chart 1). [#f1]_
 .. [#f16] Daityari, Shaumik. (March 15, 2021). "`Angular vs React vs Vue:
     Which Framework to Choose in 2021 <https://www.codeinwp
     .com/blog/angular-vs-vue-vs-react/>`_". codeinwp. Retrieved March 22, 2021.
+
+.. [#f17] "`Angularjs Data Binding <https://www.w3schools
+    .com/angular/angular_databinding.asp>`_". (n.d.). Retrieved March 25, 2021.
