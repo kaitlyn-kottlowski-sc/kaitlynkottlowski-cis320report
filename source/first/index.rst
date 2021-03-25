@@ -38,9 +38,10 @@ that initializes the app data. AngularJS uses ``{{ }}`` to bind the data to
 the view, while Angular2+ uses ``( )`` and ``[ ]`` for event and property
 binds. [#f11]_ For example: [#f13]_
 
-Angular JS Two-Binding Example
+Angular JS Example [#f17]_
+--------------------------
 
-``angular-js-example.html`` [#f17]_ ::
+``angular-js-example.html`` ::
 
     <div ng-app="myApp" ng-controller="myCtrl">
       Name: <input ng-model="name">
@@ -54,8 +55,8 @@ Angular JS Two-Binding Example
     });
     </script>
 
-Angular2+ Example
------------------
+Angular2+ Example [#f13]_
+-------------------------
 
 ``app.component.ts`` ::
 
