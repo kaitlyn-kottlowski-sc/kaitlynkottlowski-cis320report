@@ -587,53 +587,6 @@ SPA Tutorial
 Can't do this part yet because the eBook I am referencing is unavailable due
 to Simpson's Network issues.
 
---------------------------------
-
-Enterprise Web Apps
-^^^^^^^^^^^^^^^^^^^
-
-People use Angular to build all sorts of applications. The first type of
-application is an Enterprise Web App. Most big organizations use this
-web-based application to handle internal and external needs and operations.
-Since Angular is scalable, which means it can handle growth and an increase
-in users and load, it has started to become the go-to framework for big teams
-. Organizations appreciated the re-usability of the components, the unified
-architecture, and its high security standards. [#f9]_
-
-Mobile Apps
-^^^^^^^^^^^
-
-Another type of application that can be built by Angular is Mobile. You can
-use Angular with NativeScript to build an iOS or Android app. NativeScript is
-another open-source framework used to develop mobile apps using JavaScript.
-To build hybrid apps, you can use Angular with Ionic. Hybrid apps allow a
-developer to create both iOS, Android, and Window apps from the same codebase.
-Ionic is also another open-source framework using JavaScript. [#f9]_
-
-Progressive Web Apps
-^^^^^^^^^^^^^^^^^^^^
-
-Thirdly, progressive web applications (PWA) can also be built using the Angular
-framework. [#f9]_ PWAs are a type of application software built for the web
-using JavaScript, HTML, and CSS. They are to work on any device and any browser.
-PWAs are installable, should work offline as well as online, have minimal
-page refreshes, and more. [#f18]_ Use the command ``ng add @angular/pwa`` to
-build a PWA with Angular on the Command Line in the project directory.
-
-Single-Page Apps
-^^^^^^^^^^^^^^^^
-
-Finally, the most popular application built by Angular is Single-Page
-Applications (SPA). The purpose of a SPA is to allow the user to interact
-with an application on a single page. The information displayed will appear
-dynamically. SPAs are considered better at providing greater user experiences
-in comparison to multi-page applications. [#f18]_
-
-SPA Tutorial
-------------
-Can't do this part yet because the eBook I am referencing is unavailable due
-to Simpson's Network issues.
-
 
 References
 ----------
