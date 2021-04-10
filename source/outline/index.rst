@@ -2,8 +2,8 @@ Outline
 =======
 
 **Thesis:** Comparing Angular to its history and other frameworks,
-how we can use it to build a single-page web application, and discovering other
-applications Angular can be used for.
+discovering applications Angular can be used for, and how we can use it
+to build a single-page web application.
 
 * Introduction [#f4]_
 
@@ -44,7 +44,7 @@ applications Angular can be used for.
     * What frameworks are comparable or better than Angular?
     * The People's opinion [#f1]_
 
-* What other applications is Angular widely used with? [#f9]_ [#f5]_ [#f9]_
+* What other applications is Angular widely used with? [#f5]_ [#f9]_
 
     * Enterprise Web Apps
     * Mobile Apps
