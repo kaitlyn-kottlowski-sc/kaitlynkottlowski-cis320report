@@ -11,8 +11,8 @@ An Adventure in Angular
     Angular Logo
 
 In 2012, Google first released their JavaScript front-end framework called
-AngularJS. [#f8]_ However, in 2016, Angular2+ was created as an open-source,
-TypeScript-based front-end web application platform. [#f8]_ Both AngularJS
+AngularJS. [#f7]_ However, in 2016, Angular2+ was created as an open-source,
+TypeScript-based front-end web application platform. [#f7]_ Both AngularJS
 and Angular2+ are well-known and used by many developers. I will be diving
 into the architecture of Angular applications, comparing Angular to its
 history and other frameworks, discovering applications Angular can be used
@@ -104,11 +104,11 @@ Services
 ^^^^^^^^
 
 In addition, Angular components define views and use **services** that provide
-specific functionality. [#f6]_ Service classes can be created to share data
+specific functionality. [#f5]_ Service classes can be created to share data
 and/or logic over multiple views and can depend on other services.
 
 The example below shows ``HeroService`` depends on the ``Logger`` service and
-the ``BackendService``. [#f6]_
+the ``BackendService``. [#f5]_
 
 .. code-block:: typescript
     :caption: HeroService.ts
@@ -197,10 +197,10 @@ years, the structure of web development changed as JavaScript became more
 advanced. Thus came the rewrite of Angular2+.
 
 Angular 2 was released in 2016 as an open-source, TypeScript-based front-end web
-application platform. [#f8]_ TypeScript is a static, object-oriented language
+application platform. [#f7]_ TypeScript is a static, object-oriented language
 that also contains a set of tools that is converted into JavaScript. While
 AngularJS's architecture is based on the model-view-controller (MVC) design,
-Angular 2+ uses model-view-viewmodel (MVVM). [#f8]_ However, both designs
+Angular 2+ uses model-view-viewmodel (MVVM). [#f7]_ However, both designs
 can be implemented in both AngularJS and Angular2+.
 
 .. figure:: angularjs_angular2.png
@@ -215,20 +215,20 @@ can be implemented in both AngularJS and Angular2+.
 There are many advantages in using Angular2+ over AngularJS. A Single Page
 Application (SPA) is more easily implemented in Angular2+, than AngularJS.
 SPA is a website that dynamically rewrites the current web page based on user
-interactions and new data from the server. [#f9]_ Unlike AngularJS, Angular
+interactions and new data from the server. [#f8]_ Unlike AngularJS, Angular
 2+ was built so that it could be used for large and cross-platform
-applications and it is also mobile-oriented. [#f8]_ Also, Angular2+ is
+applications and it is also mobile-oriented. [#f7]_ Also, Angular2+ is
 considered to be more well-defined, some things can be done in multiple ways.
 Similarly, the syntax of Angular2+ is said to be simpler than AngularJS.
-[#f9]_ When it comes to the binding syntax, which allows data to bind to
+[#f8]_ When it comes to the binding syntax, which allows data to bind to
 pages and update automatically, AngularJS uses ng directives, which are
 extended HTML attributes using the prefix ``ng-``. Examples include the
 ``ng-app`` directive that initializes the app and the ``ng-init`` directive
 that initializes the app data. AngularJS uses ``{{ }}`` to bind the data to
 the view, while Angular2+ uses ``( )`` and ``[ ]`` for event and property
-binds. [#f8]_
+binds. [#f7]_
 
-Angular JS Example [#f14]_
+Angular JS Example [#f13]_
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. code-block:: HTML
@@ -247,7 +247,7 @@ Angular JS Example [#f14]_
     });
     </script>
 
-Angular2+ Example [#f10]_
+Angular2+ Example [#f9]_
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. code-block:: typescript
@@ -281,7 +281,7 @@ Angular2+ Example [#f10]_
 
 However, AngularJS does have a few advantages over Angular 2+ such as the
 framework being unit testing ready, not needing to be downloaded with any extra
-frameworks or plugins, and it is less complicated to set up. [#f8]_ Overall,
+frameworks or plugins, and it is less complicated to set up. [#f7]_ Overall,
 the only similarities are between AngularJS and Angular2+ is that they are both
 open-source front-end frameworks that are considered easy to learn.
 While AngularJS is still supported by Google, the releases have ceased.
@@ -294,7 +294,7 @@ Advantages and Disadvantages of Angular
 Using Angular comes with many advantages. Angular's compiler, TypeScript, and
 its combination with ES6 or ES7 JavaScript supports classes and module
 loaders. **Classes** are blueprints that are using for creating objects that are
-assigned functions and properties. [#f12]_
+assigned functions and properties. [#f11]_
 
 An example of a simple Person class in TypeScript would look like:
 
@@ -321,7 +321,7 @@ An example of a simple Person class in TypeScript would look like:
 
 A **module** is another name for a reusable file, thus module loaders simply
 interprets the module code and loads the module depending on the module
-format. [#f11]_
+format. [#f10]_
 
 For example, in HTML you may want to load in a javascript file or a .css
 file like:
@@ -343,13 +343,13 @@ collaborates with the community in design updates. While Angular2+ may have more
 the other front-end frameworks, both AngularJS and Angular2+ are consider
 easy to use in two-way binding. Two-way binding allows an update in the
 browser to automatically update the data in storage, and if there the data in
-the storage is updated, then the browser is immediately updated too. [#f5]_
+the storage is updated, then the browser is immediately updated too. [#f4]_
 
 Out of all the other frameworks, Angular is compared to React the most.
 [#f2]_ While Angular is built with data-binding and is a complete framework,
 React is even easier to learn and understand. Both frameworks use TypeScript
 and have large communities. However, based on their GitHub repositories,
-React has more popularity among users. [#f13]_ These findings correlate with
+React has more popularity among users. [#f12]_ These findings correlate with
 Angular's ranking on State of JavaScript.  The satisfaction and interest of
 Angular has been below React since 2016. While Angular is still below React
 in usage and awareness, Angular's usage has increased heavily since 2016
@@ -376,7 +376,7 @@ web-based application to handle internal and external needs and operations.
 Since Angular is scalable, which means it can handle growth and an increase
 in users and load, it has started to become the go-to framework for big teams
 . Organizations appreciated the re-usability of the components, the unified
-architecture, and its high security standards. [#f7]_
+architecture, and its high security standards. [#f6]_
 
 Mobile Apps
 ^^^^^^^^^^^
@@ -386,7 +386,7 @@ use Angular with NativeScript to build an iOS or Android app. NativeScript is
 another open-source framework used to develop mobile apps using JavaScript.
 To build hybrid apps, you can use Angular with Ionic. Hybrid apps allow a
 developer to create both iOS, Android, and Window apps from the same codebase.
-Ionic is also another open-source framework using JavaScript. [#f7]_
+Ionic is also another open-source framework using JavaScript. [#f6]_
 
 .. figure:: ionic.png
     :width: 300px
@@ -401,10 +401,10 @@ Progressive Web Apps
 ^^^^^^^^^^^^^^^^^^^^
 
 Thirdly, progressive web applications (PWA) can also be built using the Angular
-framework. [#f7]_ PWAs are a type of application software built for the web
+framework. [#f6]_ PWAs are a type of application software built for the web
 using JavaScript, HTML, and CSS. They are to work on any device and any
 browser. PWAs are installable, should work offline as well as online, have
-minimal page refreshes, and more. [#f15]_ Use the command ``ng add
+minimal page refreshes, and more. [#f14]_ Use the command ``ng add
 @angular/pwa`` to build a PWA with Angular on the Command Line in the project
 directory.
 
@@ -424,9 +424,9 @@ Finally, the most popular application built by Angular is Single-Page
 Applications (SPA). The purpose of a SPA is to allow the user to interact
 with an application on a single page. The information displayed will appear
 dynamically. SPAs are considered better at providing greater user experiences
-in comparison to multi-page applications. [#f15]_
+in comparison to multi-page applications. [#f14]_
 
-SPA Tutorial Using AngularJS [#f16]_
+SPA Tutorial Using AngularJS [#f15]_
 ------------------------------------
 The following tutorial will create a simple SPA using AngularJS that allows the
 user to travel to each page using the top navigation bar.
@@ -618,7 +618,7 @@ to travel inside our directory, so you'll type ``cd Demo``. Finally, type
 ``npm install``. This installs are the necessary packages used in an Angular
 application. Keep the Command Prompt or Terminal open.
 
-Implementing Code [#f17]_
+Implementing Code [#f16]_
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 Open the code project in Visual Studio code. Find the ``app.component.ts``
 file under Demo/src/app. Replace ``export class AppComponent  { name =
@@ -660,65 +660,60 @@ References
     <https://simpsoncollege.on.worldcat.org/search?queryString=kw%3A%28java+ee+8+and+angular%29&databaseList=638&origPageViewName=pages%2Fadvanced-search-page&clusterResults=true&expandSearch=true&translateSearch=false&queryTranslationLanguage=&scope=#/oclc/1021887714>`_".
     Packt Publishing.
 
-.. [#f4] Noccioli, R. (2019, May 2).
-    "`Blast Off with Angular Material | Rachel Noccioli
-    <https://www.youtube.com/watch?v=PPhkGNOgaNM&list=PLOETEcp3DkCpimylVKTDe968yNmNIajlR&index=42>`_".
-    [Video file]. NG Conf. Retrieved 20:34, February 6, 2021.
-
-.. [#f5] Sultan, Mohamed. (2017, November 29-30).
+.. [#f4] Sultan, Mohamed. (2017, November 29-30).
     "`Angular and the Trending Frameworks of Mobile and Web-Based Platform
     Technologies: A Comparative Analysis <https://saiconference
     .com/Downloads/FTC2017/Proceedings/128_Paper_264
     -Angular_and_the_Trending_Frameworks_of_Mobile.pdf>`_". Future
     Technologies Conference (FTC). Retrieved February 21, 2021.
 
-.. [#f6] Google. "`Introduction to Angular Concepts <https://angular
+.. [#f5] Google. "`Introduction to Angular Concepts <https://angular
     .io/guide/architecture>`_". Angular. Retrieved February 21, 2021.
 
-.. [#f7] Gluszek, Lukasz. "`What Apps Can I Build With Angular? A Short Guid for
+.. [#f6] Gluszek, Lukasz. "`What Apps Can I Build With Angular? A Short Guid for
     Entrepreneurs and Managers <https://www.netguru
     .com/blog/what-apps-can-i-build-with-angular#:~:text=Angular%20is%20an
     %20excellent%20tool,allows%20building%20iOS%20and%20Android>`_". NetGuru.
     Retrieved February 21, 2021.
 
-.. [#f8] Kumar, Pankaj. (January 19, 2021). "`AngularJS Vs. Angular 2 Vs.
+.. [#f7] Kumar, Pankaj. (January 19, 2021). "`AngularJS Vs. Angular 2 Vs.
     Angular 4: Understanding the Differences <https://www.simplilearn
     .com/angularjs-vs-angular-2-vs-angular-4-differences-article>`_".
     Simplilearn. Retrieved March 1, 2021.
 
-.. [#f9] Pedamkar, Priya. "`AngularJS vs Angular 2 <https://www.educba
+.. [#f8] Pedamkar, Priya. "`AngularJS vs Angular 2 <https://www.educba
     .com/angular-js-vs-angular-2/>`_". Educba. Retrieved March 8, 2021.
 
-.. [#f10] Trivedi, Jignesh. (September 16, 2016). "`Data Binding in Angular 2
+.. [#f9] Trivedi, Jignesh. (September 16, 2016). "`Data Binding in Angular 2
     <https://www.c-sharpcorner.com/article/data-binding-in-angular-2/>`_".
     C# Corner.  Retrieved March 8, 2021.
 
-.. [#f11] Van de Moere, Jurgen. (February 21, 2017). "`A 10 minute Primer to
+.. [#f10] Van de Moere, Jurgen. (February 21, 2017). "`A 10 minute Primer to
     JavaScript Modules, Module Formats, Module Loaders and Module Bundler
     <https://www.jvandemo.com/a-10-minute-primer-to-javascript-modules-module
     -formats-module-loaders-and-module-bundlers/>`_". JVanDemo. Retrieved March
     22, 2021.
 
-.. [#f12] Asim. (December 26, 2018). "`Class and Interface <https://codecraft
+.. [#f11] Asim. (December 26, 2018). "`Class and Interface <https://codecraft
     .tv/courses/angular/es6-typescript/classinterface/>`_". CodeCraft. Retrieved
     March 22, 2021.
 
-.. [#f13] Daityari, Shaumik. (March 15, 2021). "`Angular vs React vs Vue:
+.. [#f12] Daityari, Shaumik. (March 15, 2021). "`Angular vs React vs Vue:
     Which Framework to Choose in 2021 <https://www.codeinwp
     .com/blog/angular-vs-vue-vs-react/>`_". codeinwp. Retrieved March 22, 2021.
 
-.. [#f14] "`Angularjs Data Binding <https://www.w3schools
+.. [#f13] "`Angularjs Data Binding <https://www.w3schools
     .com/angular/angular_databinding.asp>`_". (n.d.). Retrieved March 25, 2021.
 
-.. [#f15] Farrugia, Kevin. (August 11, 2015). "`A Beginner's Guide to
+.. [#f14] Farrugia, Kevin. (August 11, 2015). "`A Beginner's Guide to
     Progressive Web Apps <http://kaitlynkottlowskicis320-env.eba-bfvuhtc5
     .us-east-2.elasticbeanstalk.com/name_list.html>`_". SmashingMagazine.
     Retrieved April 3, 2021.
 
-.. [#f16] Gavruk, Sergey. (Octover 27, 2015). "`Single Page Application using
+.. [#f15] Gavruk, Sergey. (Octover 27, 2015). "`Single Page Application using
     AngularJS Tutorial <https://tests4geeks
     .com/blog/single-page-application-using-angularjs-tutorial/>`_".
     Tests4Geeks.Blog. Retrieved April 20, 2021.
 
-.. [#f17] "`Angular 2 - Hello World <https://www.tutorialspoint.com/angular2/angular2_hello_world.html>`_".
+.. [#f16] "`Angular 2 - Hello World <https://www.tutorialspoint.com/angular2/angular2_hello_world.html>`_".
     tutorialspoint. Retrieved April 20, 2021.
